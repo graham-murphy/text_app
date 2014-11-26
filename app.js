@@ -17,7 +17,8 @@
       'ticket.priority.changed':            'renderText',
       'ticket.status.changed':              'renderText',
       'ticket.tags.changed':                'renderText',
-      'ticket.collaborators.changed':       'renderText'
+      'ticket.collaborators.changed':       'renderText',
+      'ticket.custom_field_24011956':       'renderText',
     },
 
     renderText: function() {
