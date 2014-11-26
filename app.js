@@ -107,8 +107,8 @@
           return this.currentUser().name();
         case 'current_user.email':
           return this.currentUser().email();
-        case 'current_user.email':
-          return this.ticket().ticket_field_23790823(); //JIRA V2 Field
+        case 'ticket.field.jira':
+          return this.ticket().customField("custom_field_23790823"); //JIRA V2 Field
         default:
           return placeholderStripped;
       }
